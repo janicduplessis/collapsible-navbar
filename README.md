@@ -2,6 +2,8 @@
 
 Small demo to show how to implement a collapsible navbar.
 
+Try it https://exp.host/@janic/collapsible-navbar
+
 ## Installation
 
 ```
