@@ -1,0 +1,22 @@
+{
+  "name": "collapsible-navbar",
+  "version": "0.0.0",
+  "description": "Collapsible Navbar demo",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@exponent/vector-icons": "~4.0.0",
+    "eslint-config-anf": "^0.4.4",
+    "exponent": "^14.0.0",
+    "react": "~15.4.0",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-14.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
