@@ -119,9 +119,9 @@ class App extends Component {
           )}
         />
         <Animated.View style={[styles.navbar, { transform: [{ translateY: navbarTranslate }] }]}>
-          <Animated.View style={{ opacity: navbarOpacity }}>
-            <Text style={styles.title}>PLACES</Text>
-          </Animated.View>
+          <Animated.Text style={[styles.title, { opacity: navbarOpacity }]}>
+            PLACES
+          </Animated.Text>
         </Animated.View>
       </View>
     );
@@ -160,6 +160,7 @@ const styles = StyleSheet.create({
   },
   rowText: {
     color: 'white',
+    fontSize: 18,
   },
 });
 
